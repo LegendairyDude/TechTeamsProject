@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.colored_header import colored_header
 import webbrowser
 
 colored_header(
@@ -29,11 +28,7 @@ st.text("There are ways to know if you are having a stroke:")
 
 st.image("fast.png")
 
-colored_header(
-    label="Risks",
-    description="There is many risks that are in your control to stop.",
-    color_name="violet-70",
-)
+st.mardown("---")
 
 st.subheader("If you have a unhealthy diet")
 st.text("The types of food affect your health. Learning how to eat healthy can make your\nhealth better and decrease the risk.")
@@ -51,11 +46,7 @@ st.text("Drugs such as amphetamines, cannabis, cocaine, ecstacy, heroin, and LSD
 st.subheader("Birth control and HRT")
 st.text("Any type of medication that includes estrogen increases the risk of herat attacks,\nstrokes and mini-strokes.")
 
-colored_header(
-    label="Preventions",
-    description="There are ways you can prevent the risks.",
-    color_name="violet-70",
-)
+st.markdown("---")
 st.subheader("Eating healthy")
 st.text("Eating lots of vegetables, cooking at home, limiting your processed foods, are\nall ways to help prevent the risk of strokes.")
 st.subheader("Staying active")
@@ -65,11 +56,7 @@ st.text("The best way to deal with your stress is to find out what your stressor
 st.subheader("Maintaining a healthy weight")
 st.text("You should eat healthy foods, choose protein from food sources, avoid highly\nprocessed foods such as processed meats, fried foods, frozen meals, and snack\nfoods. Drink lots of water. Make portions of foods a reasonable size. Eat 3 meals\nand 2 healthy snacks per day.")
 
-colored_header(
-    label="Risks that you cannot control",
-    description="These are risks that are out of your control.",
-    color_name="violet-70",
-)
+st.markdown("---")
 
 st.subheader("Sex")
 st.text("The risk of heart disease and strokes will increase after menopause.")
