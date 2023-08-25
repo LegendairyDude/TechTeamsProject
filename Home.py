@@ -1,15 +1,10 @@
 import streamlit as st
 import webbrowser
 from PIL import Image
-from streamlit_extras.colored_header import colored_header
 
 st.title("Heart and Stroke Foundation")
 st.write("Phone: 1-888-473-4636 | Email: donorinfo@heartandstroke.ca")
-colored_header(
-    label="",
-    description="",
-    color_name="red-80",
-)
+st.markdown("---")
 st.info("Welcome to the Heart and Stroke website. You can navigate different pages through the pull bar on the left hand side.")
 st.divider()
 st.subheader("About Us")
@@ -48,11 +43,7 @@ with tab2:
 with tab3:
     if st.button('Saving baby Nora'):
          webbrowser.open_new_tab(story3)
-colored_header(
-    label="",
-    description=" ",
-    color_name="red-80",
-)
+st.markdown("---")
 
 hide_menu_style = """
         <style>
