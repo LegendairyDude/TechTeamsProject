@@ -2,7 +2,6 @@ import folium
 import streamlit as st
 import pandas as pd
 import re
-from streamlit_extras.colored_header import colored_header
 
 
 from streamlit_folium import st_folium 
@@ -17,11 +16,7 @@ def format_phone_number(phone_number):
     return '(' + phone_number[:3] + ') ' + phone_number[3:6] + '-' + phone_number[6:]
 
 
-colored_header(
-    label="Map",
-    description=" ",
-    color_name="violet-70",
-)
+st.markdown("---")
 
 
 df = pd.read_excel("pages\CombinedSheetCleanedv3.xlsx", dtype=str)
