@@ -23,7 +23,7 @@ st.text("There are ways to know if you are having a stroke:")
 
 st.image("fast.png")
 
-st.mardown("---")
+st.markdown("---")
 
 st.subheader("If you have a unhealthy diet")
 st.text("The types of food affect your health. Learning how to eat healthy can make your\nhealth better and decrease the risk.")
