@@ -24,6 +24,7 @@ st.text("There are ways to know if you are having a stroke:")
 
 st.image("fast.png")
 
+st.title("Risks")
 st.markdown("---")
 
 st.subheader("If you have a unhealthy diet")
@@ -42,6 +43,7 @@ st.text("Drugs such as amphetamines, cannabis, cocaine, ecstacy, heroin, and LSD
 st.subheader("Birth control and HRT")
 st.text("Any type of medication that includes estrogen increases the risk of herat attacks,\nstrokes and mini-strokes.")
 
+st.title("Preventions")
 st.markdown("---")
 st.subheader("Eating healthy")
 st.text("Eating lots of vegetables, cooking at home, limiting your processed foods, are\nall ways to help prevent the risk of strokes.")
@@ -52,6 +54,7 @@ st.text("The best way to deal with your stress is to find out what your stressor
 st.subheader("Maintaining a healthy weight")
 st.text("You should eat healthy foods, choose protein from food sources, avoid highly\nprocessed foods such as processed meats, fried foods, frozen meals, and snack\nfoods. Drink lots of water. Make portions of foods a reasonable size. Eat 3 meals\nand 2 healthy snacks per day.")
 
+st.title("Risks you cannot control")
 st.markdown("---")
 
 st.subheader("Sex")
