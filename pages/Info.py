@@ -1,6 +1,7 @@
 import streamlit as st
 import webbrowser
 
+st.title("Information")
 st.markdown("---")
 url2 = "https://app-hsfdonation.heartandstroke.ca/?pagename=DMDonationForm&s_locale=en_CA&s_fT=cont&s_pres=hsweb&s_cscid=hsweb_nav"
 url3 = "https://www.heartandstroke.ca/stroke/what-is-stroke"
